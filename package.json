@@ -1,0 +1,25 @@
+{
+  "name": "testcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "triggerAll-Tests-headless": "npx cypress run",
+    "triggerAll-Tests-chrome": "npx cypress run --browser chrome"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Younashabib/TestCypress.git"
+  },
+  "author": "Younas Habib Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Younashabib/TestCypress/issues"
+  },
+  "homepage": "https://github.com/Younashabib/TestCypress#readme",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  }
+}
